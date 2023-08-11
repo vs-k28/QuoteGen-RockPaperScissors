@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=Merienda:wght@500;600;700;800&display=swap");
+/* font-family: 'Domine', serif;
+font-family: 'Merienda', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem auto;
+  color: #fff;
+  width: 40rem;
+  background: linear-gradient(to right, #3a3d4e, #2a2c35, #252839);
+  border-radius: 20px;
+  font-family: "Domine", serif;
+  transition: transform 3s;
+}
+
+.main:hover {
+  transform: scale(0.98);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  padding-top: 0;
+  margin-top: 1.3rem;
+  background-image: linear-gradient(to right, #b17e20, #876809);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+  animation: shining 5s infinite;
+  transition: all 2s;
+}
+
+#date {
+  padding-bottom: 1.2rem;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, #859494, #f0ead2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#quote_cont {
+  text-align: center;
+  font-family: "Merienda", cursive;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 0.8rem;
+  margin: 0 1rem 0;
+  background-image: linear-gradient(to right, #dcbab4, #b387d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+#author {
+  font-family: "Merienda", cursive;
+  font-weight: 800;
+  font-size: 1.3rem;
+  background-image: linear-gradient(to right, #859494, #f0ead2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+
+.butn {
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#next, #tweet, #web {
+    padding: 0.4rem 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Domine', serif;
+    background-color: #4e4e40;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #bcced3;
+    border: transparent;
+}
+#web {
+  margin-top: 1.1rem;
+  margin-bottom: 1.3rem;
+}
+
+#next:hover, #tweet:hover, #web:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 5px 15px;
+}
+
+#next:active, #tweet:active, #web:active {
+    transform: scale(0.8);    
+}
+
+#next {
+    margin-right: 1rem;
+}
+
+.fa-brands {
+    color: #00ACEE;
+}
+
+@keyframes shining {
+  0% { opacity: 1;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(29, 28, 25, 0.3); }
+  25% { opacity: 0.45;
+        text-shadow: rgba(29, 28, 28, 0.8) 6px 8px 15px;  }
+  50% { opacity: 0.5;
+        text-shadow: rgba(15, 15, 15, 0.8) 5px 8px 15px;  }
+  75% { opacity: 0.75;
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(29, 28, 25, 0.3); }
+  100% { opacity: 1; 
+         text-shadow: rgba(47, 33, 33, 0.8) 8px 5px 15px;}
+}
+
