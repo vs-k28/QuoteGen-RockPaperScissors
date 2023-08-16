@@ -5,12 +5,12 @@ Description :  Quote generator offers a collection of quotes from an API as well
 
 ![screenshot](images/QuoteGenerator.png)
 
-Demo : Watch the demo video on [YouTube]().
+Demo : Watch the demo video on [YouTube](https://youtu.be/mPdIYc7JlBc).
 
 #### Project 2: Rock Paper Scissors
 Description :  Game project with simple interface against computer opponent.
 
 ![screenshot](images/RockPaperScissors.png)
 
-Demo : Watch the demo video on [YouTube]().
+Demo : Watch the demo video on [YouTube](https://youtu.be/QjBPsSw_pxE).
 
